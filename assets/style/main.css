@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+* {
+  font-family: 'Inter', sans-serif !important;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+body .cl-green {
+  color: #05BB2D;
+}
+
+body .cl-black {
+  color: black !important;
+}
+
+body .cl-orange {
+  color: #FF9900;
+}
+
+body nav .navbar-brand h5 {
+  font-weight: 700 !important;
+  size: 28px;
+  line-height: 150%;
+}
+
+body nav .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ADB2B8 !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body nav .navbar-nav .active {
+  color: #080E09 !important;
+}
+
+body nav .navbar-nav .border-bottom {
+  border-bottom: 2px solid #05BB2D !important;
+}
+
+@media screen and (min-width: 993px) {
+  body nav .navbar-nav {
+    margin-left: 500px;
+  }
+}
+
+body #header {
+  margin-top: 138px;
+  margin-bottom: 100px;
+}
+
+body .img-header {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body .explore {
+  background-color: #080E09;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+body .pt-35 {
+  padding-top: 35px;
+}
+
+body .title h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+body .stat {
+  margin-top: 48px;
+}
+
+body .stat h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+body .stat p {
+  font-size: 16px;
+  color: #ADB2B8;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+body .btn-green {
+  background-color: #05BB2D;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 600px) {
+  body .image-content .img-fluid {
+    height: 144.953px;
+  }
+}
+
+body .text-content h1 {
+  font-size: 60px !important;
+  line-height: 150%;
+  color: white;
+}
+
+body .text-content p {
+  font-size: 16px;
+  color: #ADB2B8;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 108px;
+}
+
+body .place {
+  border-radius: 28px;
+  background-color: #ffffff !important;
+}
+
+body .place h5 {
+  margin-top: 17px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+body .place p {
+  font-size: 16x;
+  font-weight: 400;
+  color: #ADB2B8;
+}
+
+body .scrolling-wrapper {
+  overflow-x: auto;
+}
+
+body .section::-webkit-scrollbar {
+  height: 0 !important;
+}
+
+body .section::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+body .section::-webkit-scrollbar-thumb {
+  background-color: #05BB2D;
+  border-radius: 100px;
+}
+/*# sourceMappingURL=main.css.map */
