@@ -47,9 +47,23 @@ body nav .navbar-nav .border-bottom {
   }
 }
 
+@media screen and (min-width: 900px) {
+  body .pl-124 {
+    margin: 0 !important;
+    padding-left: 124px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body .pl-124 {
+    margin: 0 5px 0 5px !important;
+  }
+}
+
 body #header {
   margin-top: 138px;
   margin-bottom: 100px;
+  width: 100% !important;
 }
 
 body .img-header {
@@ -152,5 +166,9 @@ body .section::-webkit-scrollbar-track {
 body .section::-webkit-scrollbar-thumb {
   background-color: #05BB2D;
   border-radius: 100px;
+}
+
+body .mr-6 {
+  margin-right: 64px;
 }
 /*# sourceMappingURL=main.css.map */

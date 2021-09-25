@@ -67,9 +67,21 @@ body {
     }
   }
 
+  .pl-124 {    
+    @media screen and (min-width: 900px) {
+      margin: 0 !important;
+      padding-left: 124px;
+    }
+    @media screen and (max-width: 900px) {
+      margin: 0 5px 0 5px !important;
+    }
+
+  }
+
   #header {
     margin-top: 138px;
     margin-bottom: 100px;
+    width: 100% !important;
   }
 
   .img-header {
@@ -178,5 +190,9 @@ body {
   .section::-webkit-scrollbar-thumb {
       background-color: $green;
       border-radius: 100px;
+  }
+
+  .mr-6 {
+    margin-right: 64px;
   }
 }
