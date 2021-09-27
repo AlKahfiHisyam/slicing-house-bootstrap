@@ -19,6 +19,10 @@ body .cl-orange {
   color: #FF9900;
 }
 
+body .cl-blue {
+  color: #0F52BA;
+}
+
 body nav .navbar-brand h5 {
   font-weight: 700 !important;
   size: 28px;
@@ -28,17 +32,27 @@ body nav .navbar-brand h5 {
 body nav .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 600;
-  color: #ADB2B8 !important;
-  margin-left: 20px;
-  margin-right: 20px;
+  color: #739AD4 !important;
+  margin: 0 30px;
 }
 
 body nav .navbar-nav .active {
   color: #080E09 !important;
+  width: 100%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body nav .navbar-nav .active a {
+  width: 12px;
 }
 
 body nav .navbar-nav .border-bottom {
-  border-bottom: 2px solid #05BB2D !important;
+  border-bottom: 2px solid #0F52BA !important;
 }
 
 @media screen and (min-width: 993px) {
@@ -104,8 +118,8 @@ body .stat p {
   line-height: 28px;
 }
 
-body .btn-green {
-  background-color: #05BB2D;
+body .btn-blue {
+  background-color: #0F52BA;
   color: white;
   font-weight: 600;
   font-size: 16px;
@@ -170,5 +184,19 @@ body .section::-webkit-scrollbar-thumb {
 
 body .mr-6 {
   margin-right: 64px;
+}
+
+body .img-explore {
+  height: 600px;
+  padding: 0;
+}
+
+body .img-explore img {
+  width: 452px !important;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 24px;
+  margin-right: 72px;
 }
 /*# sourceMappingURL=main.css.map */

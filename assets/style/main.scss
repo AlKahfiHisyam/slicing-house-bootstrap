@@ -16,6 +16,8 @@ $font-weight: (
 // Color
 $black: #080E09;
 $grey: #ADB2B8;
+$light-blue: #739AD4;
+$blue: #0F52BA;
 $green: #05BB2D;
 $dark-green: #06a428;
 $orange: #FF9900;
@@ -35,6 +37,10 @@ body {
     color: $orange;
   }
 
+  .cl-blue {
+    color: $blue;
+  }
+
   nav {
     .navbar-brand {
       h5 {
@@ -48,17 +54,22 @@ body {
       .nav-link {
         font-size: 16px;
         font-weight: map-get($map: $font-weight, $key: semi-bold);
-        color: $grey !important;
-        margin-left: 20px;
-        margin-right: 20px;
+        color: $light-blue!important;
+        margin: 0 30px;
       }
 
       .active {
         color: $black !important;
+        width: 100%;
+        display: flex !important;
+        justify-content: center;
+        a {
+          width: 12px;
+        }
       }
 
       .border-bottom{
-        border-bottom: 2px solid $green !important;
+        border-bottom: 2px solid $blue !important;
       }
 
       @media screen and (min-width: 993px) {
@@ -124,8 +135,8 @@ body {
     }
   }
 
-  .btn-green {
-    background-color: $green;
+  .btn-blue {
+    background-color: $blue;
     color: white;
     font-weight: map-get($map: $font-weight, $key: semi-bold);
     font-size: 16px;
@@ -194,5 +205,18 @@ body {
 
   .mr-6 {
     margin-right: 64px;
+  }
+
+  .img-explore {
+    height: 600px;
+    padding: 0;
+    img {
+      width: 452px !important;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      border-radius: 24px;
+      margin-right: 72px;
+    }
   }
 }
