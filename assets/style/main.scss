@@ -195,6 +195,10 @@ body {
       font-weight: map-get($map: $font-weight, $key: regular);
       color: $grey;
     }
+    
+    .img-place-header {
+      width: 100% !important;
+    }
   }
 
   .scrolling-wrapper{

@@ -177,6 +177,10 @@ body .place p {
   color: #ADB2B8;
 }
 
+body .place .img-place-header {
+  width: 100% !important;
+}
+
 body .scrolling-wrapper {
   overflow-x: auto;
 }
