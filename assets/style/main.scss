@@ -116,6 +116,7 @@ body {
     h1 {
       font-size: 72px;
       font-weight: map-get($map: $font-weight, $key: bold);
+      line-height: 150%;
     }
     @media screen and (max-width: 768px) {
       h1 {        
@@ -130,6 +131,12 @@ body {
     h2 {
       font-size: 48px;
       font-weight: map-get($map: $font-weight, $key: extra-bold);
+    }
+
+    @media screen and (max-width: 768px) {
+      h2 {        
+        font-size: 28px;
+      }
     }
 
     p {
