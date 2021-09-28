@@ -102,6 +102,12 @@ body .title h1 {
   font-weight: 700;
 }
 
+@media screen and (max-width: 768px) {
+  body .title h1 {
+    font-size: 48px;
+  }
+}
+
 body .stat {
   margin-top: 48px;
 }
