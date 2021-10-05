@@ -15,12 +15,17 @@ $font-weight: (
 
 // Color
 $black: #080E09;
+$black-medium: #232323;
+$dark: #101419;
 $grey: #ADB2B8;
 $light-blue: #739AD4;
 $blue: #0F52BA;
 $green: #05BB2D;
 $dark-green: #06a428;
 $orange: #FF9900;
+$bali-hai: #879FB0;
+$catskill-white: #F9FCFC;
+$dusty-grey: #9C9C9C;
 
 body {
   background-color: #FFFFFF;
@@ -38,7 +43,19 @@ body {
   }
 
   .cl-blue {
-    color: $blue;
+    color: $blue !important;
+  }
+
+  .cl-dusty-grey {
+    color: $dusty-grey;
+  }
+
+  .rounded-24 {
+    border-radius: 24px;
+  }
+
+  .font-weight-semi-bold {
+    font-weight: map-get($map: $font-weight, $key: semi-bold) !important;
   }
 
   nav {
@@ -89,7 +106,11 @@ body {
 
   }
 
-  #header {
+  #header {    
+    @media screen and (max-width: 768px) {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
     margin-top: 138px;
     margin-bottom: 100px;
     width: 100% !important;
@@ -106,6 +127,10 @@ body {
     background-color: $black;
     padding-top: 100px;
     padding-bottom: 50px;
+    @media screen and (max-width: 768px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
   }
 
   .pt-35 {
@@ -233,6 +258,99 @@ body {
       object-fit: cover;
       border-radius: 24px;
       margin-right: 72px;
+    }
+  }
+
+  .choose {    
+    background-color: $catskill-white;
+    h1 {      
+      color: $black-medium;
+      font-weight: map-get($map: $font-weight, $key: bold) !important;
+    }
+    p {
+      color: $bali-hai;
+    }
+    @media screen and (min-width: 768px) {
+      h1 {        
+        font-size: 60px !important;
+      }
+    }
+  }
+
+  .img-testimoni {
+    z-index: -1 !important; 
+    right: 0 !important; 
+    position: absolute;
+    margin-top: 92px;
+    margin-right: 68px;
+  }
+
+  .testimoni {    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1 {      
+      color: $black-medium;
+      font-weight: map-get($map: $font-weight, $key: bold) !important;
+    }
+    @media screen and (min-width: 768px) {
+      padding-bottom: 188px;
+      h1 {        
+        font-size: 60px !important;
+      }
+    }
+    .container {
+      @media screen and (min-width: 768px) {
+        padding-top: 120px;
+        h1 {
+          width: 722px;
+          font-size: 60px;
+          line-height: 90px !important;
+        }
+      }
+      h1 {
+        line-height: 50px;
+        font-weight: map-get($map: $font-weight, $key: bold) !important;
+      }
+      
+      .testi-text {
+        line-height: 28px;
+        color: $dusty-grey;
+        @media screen and (min-width: 768px) {
+          width: 500px;
+        }
+      }
+
+      .card {
+        border-radius: 28px;
+        border: none !important;
+        p {
+          color: $dusty-grey;
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: $dark;
+    p {
+      font-size: 20px;
+      color: $grey;
+    }
+
+    
+    @media screen and (min-width: 768px) {
+      .container-fluid {
+        padding-left: 80px;
+      }
+    }
+
+    li {      
+      margin-bottom: 12px;
+      a {
+        color: $grey;
+        font-size: 20px;
+        font-weight: map-get($map: $font-weight, $key: regular) !important;
+      }
     }
   }
 }

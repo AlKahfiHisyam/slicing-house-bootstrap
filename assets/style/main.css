@@ -20,7 +20,19 @@ body .cl-orange {
 }
 
 body .cl-blue {
-  color: #0F52BA;
+  color: #0F52BA !important;
+}
+
+body .cl-dusty-grey {
+  color: #9C9C9C;
+}
+
+body .rounded-24 {
+  border-radius: 24px;
+}
+
+body .font-weight-semi-bold {
+  font-weight: 600 !important;
 }
 
 body nav .navbar-brand h5 {
@@ -80,6 +92,13 @@ body #header {
   width: 100% !important;
 }
 
+@media screen and (max-width: 768px) {
+  body #header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
 body .img-header {
   z-index: -1;
   position: absolute;
@@ -91,6 +110,13 @@ body .explore {
   background-color: #080E09;
   padding-top: 100px;
   padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  body .explore {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 body .pt-35 {
@@ -215,5 +241,112 @@ body .img-explore img {
   object-fit: cover;
   border-radius: 24px;
   margin-right: 72px;
+}
+
+body .choose {
+  background-color: #F9FCFC;
+}
+
+body .choose h1 {
+  color: #232323;
+  font-weight: 700 !important;
+}
+
+body .choose p {
+  color: #879FB0;
+}
+
+@media screen and (min-width: 768px) {
+  body .choose h1 {
+    font-size: 60px !important;
+  }
+}
+
+body .img-testimoni {
+  z-index: -1 !important;
+  right: 0 !important;
+  position: absolute;
+  margin-top: 92px;
+  margin-right: 68px;
+}
+
+body .testimoni {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body .testimoni h1 {
+  color: #232323;
+  font-weight: 700 !important;
+}
+
+@media screen and (min-width: 768px) {
+  body .testimoni {
+    padding-bottom: 188px;
+  }
+  body .testimoni h1 {
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body .testimoni .container {
+    padding-top: 120px;
+  }
+  body .testimoni .container h1 {
+    width: 722px;
+    font-size: 60px;
+    line-height: 90px !important;
+  }
+}
+
+body .testimoni .container h1 {
+  line-height: 50px;
+  font-weight: 700 !important;
+}
+
+body .testimoni .container .testi-text {
+  line-height: 28px;
+  color: #9C9C9C;
+}
+
+@media screen and (min-width: 768px) {
+  body .testimoni .container .testi-text {
+    width: 500px;
+  }
+}
+
+body .testimoni .container .card {
+  border-radius: 28px;
+  border: none !important;
+}
+
+body .testimoni .container .card p {
+  color: #9C9C9C;
+}
+
+body footer {
+  background-color: #101419;
+}
+
+body footer p {
+  font-size: 20px;
+  color: #ADB2B8;
+}
+
+@media screen and (min-width: 768px) {
+  body footer .container-fluid {
+    padding-left: 80px;
+  }
+}
+
+body footer li {
+  margin-bottom: 12px;
+}
+
+body footer li a {
+  color: #ADB2B8;
+  font-size: 20px;
+  font-weight: 400 !important;
 }
 /*# sourceMappingURL=main.css.map */
