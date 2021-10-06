@@ -59,6 +59,12 @@ body {
   }
 
   nav {
+      .container {         
+        @media screen and (min-width: 900px) {
+          margin-left: 45px !important;
+        }
+      }
+
     .navbar-brand {
       h5 {
         font-weight: map-get($map: $font-weight, $key: bold) !important;
@@ -90,7 +96,7 @@ body {
       }
 
       @media screen and (min-width: 993px) {
-          margin-left: 525px;
+          margin-left: 560px;
       }
     }
   }
@@ -330,7 +336,7 @@ body {
       height: 300px;
     }
     img {
-      width: 380px !important;
+      width: 452px !important;
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover;

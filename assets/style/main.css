@@ -35,6 +35,12 @@ body .font-weight-semi-bold {
   font-weight: 600 !important;
 }
 
+@media screen and (min-width: 900px) {
+  body nav .container {
+    margin-left: 45px !important;
+  }
+}
+
 body nav .navbar-brand h5 {
   font-weight: 700 !important;
   size: 28px;
@@ -69,7 +75,7 @@ body nav .navbar-nav .border-bottom {
 
 @media screen and (min-width: 993px) {
   body nav .navbar-nav {
-    margin-left: 525px;
+    margin-left: 560px;
   }
 }
 
@@ -329,7 +335,7 @@ body .img-explore {
 }
 
 body .img-explore img {
-  width: 380px !important;
+  width: 452px !important;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
