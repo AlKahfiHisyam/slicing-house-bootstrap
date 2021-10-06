@@ -60,9 +60,6 @@ body {
 
   nav {
       .container {         
-        @media screen and (min-width: 900px) {
-          margin-left: 45px !important;
-        }
       }
 
     .navbar-brand {
@@ -102,11 +99,11 @@ body {
   }
 
   .pl-house {    
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 768px) {
       margin: 0 !important;
-      padding-left: 61px;
+      padding-left: 100px;
     }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 768px) {
       margin: 0 5px 0 5px !important;
     }
 
