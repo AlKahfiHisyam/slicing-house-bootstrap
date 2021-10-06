@@ -69,19 +69,19 @@ body nav .navbar-nav .border-bottom {
 
 @media screen and (min-width: 993px) {
   body nav .navbar-nav {
-    margin-left: 500px;
+    margin-left: 525px;
   }
 }
 
 @media screen and (min-width: 900px) {
-  body .pl-124 {
+  body .pl-house {
     margin: 0 !important;
-    padding-left: 124px;
+    padding-left: 61px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  body .pl-124 {
+  body .pl-house {
     margin: 0 5px 0 5px !important;
   }
 }
@@ -117,6 +117,10 @@ body .explore {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+
+body .explore .descript-explore {
+  max-width: 75%;
 }
 
 body .pt-35 {
@@ -157,6 +161,10 @@ body .stat p {
   line-height: 28px;
 }
 
+body .stat .descript-head {
+  max-width: 90%;
+}
+
 body .btn-blue {
   background-color: #0F52BA;
   color: white;
@@ -164,6 +172,86 @@ body .btn-blue {
   font-size: 16px;
   border-radius: 12px;
   margin-top: 48px;
+}
+
+body .gallery {
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  body .gallery {
+    margin: 50px 0;
+  }
+}
+
+body .gallery .card-hotel-carousel {
+  width: 325px;
+  margin-right: 64px;
+  padding: 28px 28px 40px;
+  border-radius: 28px;
+  background: white;
+  -webkit-box-shadow: 20px 8px 18px rgba(178, 177, 255, 0.05);
+          box-shadow: 20px 8px 18px rgba(178, 177, 255, 0.05);
+}
+
+@media only screen and (max-width: 768px) {
+  body .gallery .card-hotel-carousel {
+    margin-right: 20px;
+  }
+}
+
+body .gallery .card-hotel-carousel .image-placeholder {
+  width: 268px;
+  height: 190px;
+}
+
+body .gallery .card-hotel-carousel .image-placeholder img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+}
+
+body .gallery .card-hotel-carousel .card-details {
+  padding-bottom: 53px;
+  height: 150px;
+}
+
+body .gallery .card-hotel-carousel .card-details .caption {
+  font-weight: 700;
+  font-size: 24px;
+  color: #080E09;
+  margin-top: 24px;
+}
+
+body .gallery .card-hotel-carousel .card-details .sub-caption {
+  font-weight: 400;
+  color: #ADB2B8;
+}
+
+body .gallery .card-hotel-carousel .bottom-text .price-content {
+  color: #080E09;
+  font-size: 16px;
+}
+
+body .gallery .card-hotel-carousel .bottom-text .price-content span {
+  font-weight: 400;
+}
+
+body .gallery .card-hotel-carousel .bottom-text .price-content span.price {
+  font-weight: 700;
+}
+
+body .gallery .card-hotel-carousel .bottom-text .rating {
+  font-weight: 700;
+  font-size: 16px;
+  color: #FF9900;
+}
+
+body .gallery .card-hotel-carousel .bottom-text .rating img {
+  margin-top: -1px;
+  margin-right: 5px;
 }
 
 @media screen and (min-width: 600px) {
@@ -234,13 +322,25 @@ body .img-explore {
   padding: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  body .img-explore {
+    height: 300px;
+  }
+}
+
 body .img-explore img {
-  width: 452px !important;
+  width: 380px !important;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: 24px;
   margin-right: 72px;
+}
+
+@media only screen and (max-width: 768px) {
+  body .img-explore img {
+    width: 226px !important;
+  }
 }
 
 body .choose {
@@ -319,6 +419,8 @@ body .testimoni .container .testi-text {
 body .testimoni .container .card {
   border-radius: 28px;
   border: none !important;
+  -webkit-box-shadow: 20px 8px 18px rgba(178, 177, 255, 0.05);
+          box-shadow: 20px 8px 18px rgba(178, 177, 255, 0.05);
 }
 
 body .testimoni .container .card p {

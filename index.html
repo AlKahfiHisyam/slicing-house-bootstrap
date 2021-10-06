@@ -14,9 +14,9 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
+        <div class="container px-0">
             <a class="navbar-brand" href="#">
-                <h5 class="m-0">House</h5>
+                <h5 class="mb-0">House</h5>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,17 +38,17 @@
         </div>
     </nav>
 
-    <div class="pl-124">
+    <div class="pl-house">
         <img src="assets/images/bg-header.svg" alt="bg-header" class="img-header d-none d-md-block">
         <div class="row" id="header">
-            <div class="col-md-6">
+            <div class="col-xl-6">
                 <div class="title">
                     <h1>
                         Find Your Next Home Stay
                     </h1>
                 </div>
-                <div class="d-flex flex-row justify-content-between stat mr-5">
-                    <div class="col text-left">
+                <div class="row stat mr-md-5 mx-0">
+                    <div class="text-left mr-4 mr-md-5">
                         <h2>
                             37
                         </h2>
@@ -56,7 +56,7 @@
                             Homestays
                         </p>
                     </div>
-                    <div class="col text-center border-left border-right">
+                    <div class="border-left border-right px-md-5 px-4">
                         <h2>
                             80
                         </h2>
@@ -64,7 +64,7 @@
                             Partners
                         </p>
                     </div>
-                    <div class="col text-right">
+                    <div class="ml-4 ml-md-5">
                         <h2>
                             760
                         </h2>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="stat">
-                    <p>
+                    <p class="descript-head">
                         Consectetur odio amet risus ut mattis sed tempor, sed luctus consequat in pellentesque neque nec
                         auctor eu mi mauris, sapien aliquam duis eget id morbi auctor ac tellus ut
                     </p>
@@ -85,63 +85,81 @@
                     </button>
                 </div>
             </div>
-            <div class="col-md-6 my-auto">
-                <div class="row p-4 section scrolling-wrapper flex-row flex-nowrap">
-                    <div class="col-md-8 col-12 p-3 place mr-6">
-                        <img src="assets/images/place.png" alt="img-place" class="img-fluid img-place-header">
-                        <h5>
-                            Tretes Hotel INA
-                        </h5>
-                        <p class="mb-5">
-                            150m
-                        </p>
-                        <div class="row">
-                            <div class="col-8">
-                                <p class="cl-black">
-                                    Start from <strong>40 USD</strong>
-                                </p>
+            <div class="col-xl-6 my-auto">
+                <div class="gallery row p-4 section scrolling-wrapper flex-row flex-nowrap">
+                    <!-- CARD 1 -->
+                    <div class="card-hotel-carousel">
+                        <div class="image-placeholder">
+                            <img src="assets/images/place.png" alt="images" />
+                        </div>
+                        <div class="card-details">
+                            <div class="caption">Tretes Hotel INA</div>
+                            <span class="sub-caption">150m</span>
+                        </div>
+                        <div class="bottom-text d-flex flex-row justify-content-between">
+                            <div class="price-content flex-grow-1">
+                                <span>Start from</span> <span class="price">40 USD</span>
                             </div>
-                            <div class="col-4 cl-orange text-right">
-                                <strong>
-                                    <img src="assets/images/star-yellow.svg" alt="star" class="img-fluid"> 4.8
-                                </strong>
+                            <div class="rating d-flex align-items-center">
+                                <img src="assets/images/star-yellow.svg" alt="star" />
+                                <span>4.8</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-12 p-3 place">
-                        <img src="assets/images/place-2.png" alt="img-place" class="img-fluid img-place-header">
-                        <h5>
-                            Hotel Mawar & Melati Putih
-                        </h5>
-                        <p class="mb-5">
-                            120m
-                        </p>
-                        <div class="row">
-                            <div class="col-8">
-                                <p class="cl-black">
-                                    Start from <strong>40 USD</strong>
-                                </p>
+                    <!-- END CARD 1 -->
+                    <!-- CARD 2 -->
+                    <div class="card-hotel-carousel">
+                        <div class="image-placeholder">
+                            <img src="assets/images/place-2.png" alt="images" />
+                        </div>
+                        <div class="card-details">
+                            <div class="caption">Hotel Mawar & Melati Putih</div>
+                            <span class="sub-caption">120m</span>
+                        </div>
+                        <div class="bottom-text d-flex flex-row justify-content-between">
+                            <div class="price-content flex-grow-1">
+                                <span>Start from</span> <span class="price">40 USD</span>
                             </div>
-                            <div class="col-4 cl-orange text-right">
-                                <strong>
-                                    <img src="assets/images/star-yellow.svg" alt="star" class="img-fluid"> 4.8
-                                </strong>
+                            <div class="rating d-flex align-items-center">
+                                <img src="assets/images/star-yellow.svg" alt="star" />
+                                <span>4.8</span>
                             </div>
                         </div>
                     </div>
+                    <!-- END CARD 2 -->
+                    <!-- CARD 3 -->
+                    <div class="card-hotel-carousel">
+                        <div class="image-placeholder">
+                            <img src="assets/images/place.png" alt="images" />
+                        </div>
+                        <div class="card-details">
+                            <div class="caption">Tretes Hotel INA</div>
+                            <span class="sub-caption">150m</span>
+                        </div>
+                        <div class="bottom-text d-flex flex-row justify-content-between">
+                            <div class="price-content flex-grow-1">
+                                <span>Start from</span> <span class="price">40 USD</span>
+                            </div>
+                            <div class="rating d-flex align-items-center">
+                                <img src="assets/images/star-yellow.svg" alt="star" />
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END CARD 3 -->
                 </div>
             </div>
         </div>
     </div>
 
     <div class="explore">
-        <div class="pl-124">
-            <div class="row text-content title pt-35 my-0" id="header">
+        <div class="pl-house">
+            <div class="row text-content title pt-35 my-0 mx-0" id="header">
                 <div class="col-md-9 px-md-0">
                     <h1 class="pb-3">
                         Explore our promos
                     </h1>
-                    <p class="pb-0">
+                    <p class="pb-0 descript-explore">
                         Blandit <span class="cl-blue">1,900</span> natoque dui justo, dictum turpis amet, viverra vel
                         ornare quis mattis mi ac eget id integer dolor dui aliquam volutpat varius pulvinar massa
                     </p>
